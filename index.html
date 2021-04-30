@@ -10,32 +10,32 @@
   <body>
     <div class="container">
       <form action="">
-        <input type="text" class="textView" />
+        <input type="text" class="textView" name="result" />
       </form>
       <table>
         <tr>
-          <td><input type="button" value="C" /></td>
-          <td><input type="button" value="<" /></td>
-          <td><input type="button" value="/" /></td>
-          <td><input type="button" value="x" /></td>
+          <td><input type="button" value="C" onclick="cleanInput()" /></td>
+          <td><input type="button" value="<" onclick="cleanOne()" /></td>
+          <td><input type="button" value="/" onclick="setNum('/')" /></td>
+          <td><input type="button" value="x" onclick="setNum('*')" /></td>
         </tr>
         <tr>
-          <td><input type="button" value="7" /></td>
-          <td><input type="button" value="8" /></td>
-          <td><input type="button" value="9" /></td>
-          <td><input type="button" value="-" /></td>
+          <td><input type="button" value="7" onclick="setNum(7)" /></td>
+          <td><input type="button" value="8" onclick="setNum(8)" /></td>
+          <td><input type="button" value="9" onclick="setNum(9)" /></td>
+          <td><input type="button" value="-" onclick="setNum('-')" /></td>
         </tr>
         <tr>
-          <td><input type="button" value="4" /></td>
-          <td><input type="button" value="5" /></td>
-          <td><input type="button" value="6" /></td>
-          <td><input type="button" value="+" /></td>
+          <td><input type="button" value="4" onclick="setNum(4)" /></td>
+          <td><input type="button" value="5" onclick="setNum(5)" /></td>
+          <td><input type="button" value="6" onclick="setNum(6)" /></td>
+          <td><input type="button" value="+" onclick="setNum('+')" /></td>
         </tr>
         <tr>
-          <td><input type="button" value="1" /></td>
-          <td><input type="button" value="2" /></td>
-          <td><input type="button" value="3" /></td>
-          <td><input type="button" value="=" /></td>
+          <td><input type="button" value="1" onclick="setNum(1)" /></td>
+          <td><input type="button" value="2" onclick="setNum(2)" /></td>
+          <td><input type="button" value="3" onclick="setNum(3)" /></td>
+          <td><input type="button" value="=" onclick="equal()" /></td>
         </tr>
       </table>
     </div>

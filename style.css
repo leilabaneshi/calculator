@@ -21,6 +21,8 @@ body {
   border-radius: 10px;
   outline-style: none;
   border: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 td {
   padding: 3px;
